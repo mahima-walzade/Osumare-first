@@ -1,0 +1,43 @@
+*{
+    margin:0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width:40px;
+    height: 40px;
+    border: 1px solid rgb(255,255,255);
+    border-radius: 2px;
+    margin-left: 5px;
+    padding-top: 2px;
+}
+.divider{
+    border: 2px solid white;
+    margin: 8px;
+}
+#header{
+    display: inline;
+}
+#header img{
+    margin-left: 20px;
+}
+
+#text.h2{
+    text-align: center;
+}
+.start{
+    background-color: rgb(50, 50, 187);
+    color: white;
+    width: 200px;
+    height: 30px;
+    align-items: center;
+    border-radius: 20px;
+}
+.frame{
+    display: block;
+}
+@media only screen and (max-width: 768px) {
+    #header.button{
+        margin-left: 150px;
+    }
+}
